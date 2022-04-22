@@ -40,4 +40,11 @@ namespace BinaryOp
             return (T)(a1 / b1);
         }
     }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
 }
