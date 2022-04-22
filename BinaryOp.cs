@@ -34,6 +34,10 @@ namespace BinaryOp
     }
     class Divide<T> : BinaryOperator<T> 
     {
-
+        public T call(T a, T b) {
+            dynamic a1 = a;
+            dynamic b1 = b;
+            return (T)(a1 / b1);
+        }
     }
 }
