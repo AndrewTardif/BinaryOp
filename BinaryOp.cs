@@ -44,6 +44,16 @@ namespace BinaryOp
     {
         static void Main(string[] args)
         {
+            var addOp = new Add<int>();
+            var subOp = new Subtract<int>();
+            var mulOp = new Muliply<int>();
+            var divOp = new Divide<int>();
+
+            Console.WriteLine("Testing Add: " + addOp.call(1, 2));
+            Console.WriteLine("Testing Subtract: " + subOp.call(4, 2));
+            Console.WriteLine("Testing Multiply:" + mulOp.call(5,5));
+            Console.WriteLine("Testing Divide: " + divOp.call(16, 2));
+            Console.WriteLine("Hello World!");
 
         }
     }
